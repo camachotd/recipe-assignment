@@ -1,14 +1,150 @@
-h1 {
-font-variant: small-caps;
-font-family: "trebuchet MS";
-}
-
-h2 {
-font-variant: small-caps;
-color: 	#804d66;
-font-family: "trebuchet MS"
+html{
+  font: 100%/1.15 sans-serif;
 }
 
 body{
-  text-align: justify;
+font-family: "calibri";
+  font-size: 1em;
+  font-weight:lighter;
+  color: #696969;
+  background-color: #f6f6f6;
+  border-style: hidden;
+  width: 90%;
+  max-width: 60em;
+  margin: 0 auto;
+}
+main{
+  padding: 5px;
+  margin: 0px 10px ;
+}
+
+h1 {
+font-family: "perpetua";
+text-align: center;
+font-size: 3em;
+color: darkred; darkred;
+}
+
+figure {
+  text-align: center;
+  margin: 0;
+}
+
+img {
+  height: auto;
+  width: auto;
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightgrey;
+
+}
+figcaption {
+  text-align: right;
+  font-size: 70%;
+
+}
+h2 {
+width:50px;
+font-variant: small-caps;
+color: 	darkred;
+font-family: "trebuchet MS";
+display: inline;
+}
+
+a:link {
+    color: darkgray;
+}
+
+/* visited link */
+a:visited {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+nav{
+  padding-top: 1.5em
+  font-size: 60%;
+}
+nav h6 {
+  margin: 0
+  font-family: "Garamond"
+}
+
+nav ul{
+list-style: none;
+padding-left: 0;
+margin:0;
+  padding-top: 1.5em
+}
+nav li{
+  display: inline;
+  padding: 2px;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  border: 1em;
+  border: 1px hidden black;
+  border-radius: 5px;
+}
+.back-to-top{
+  color: red;
+  clear:both;
+  font-size: 60%;
+}
+
+#info{
+  border: 2px gray;
+  border-style:hidden;
+  border-width: thin;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#Ingredientsinfo,
+#Directionsinfo{
+  border: 2px gray;
+  border-style:hidden;
+  border-width: thin;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: lightgray;
+  padding: 1px 2px;
+  margin: 0px 0px 0px 0px;
+}
+
+p {
+text-align: justify;
+}
+
+
+#copyright {font-size: 15px;
+
+}
+
+/* ---- layout for wider width screens ---*/
+@media (min-width:900px) {
+
+  #Ingredients {
+    float: left;
+    width: 50%;}
+
+    #info {
+      float: right;
+      Width: 50%;
+      padding: 5px;
+
+  }
+    #Directions{
+    clear:both;
 }
