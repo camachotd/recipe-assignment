@@ -1,0 +1,245 @@
+html{
+  font: 100%/1.15 sans-serif;
+}
+
+body{
+font-family: "calibri";
+  font-size: 1em;
+  font-weight:lighter;
+  color: #696969;
+  background-color: #efefef;
+  border-style: hidden;
+  width: 90%;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+main {
+
+  margin: 0px 10px;
+  border: hidden;
+  background-color: #e8e8e6;
+   box-shadow: 0px 6px 25px 6px #c6c6c6;
+}
+
+
+nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    box-shadow: 0px 6px 25px 6px #c6c6c6;
+      background-color: #e8e8e3;
+   background-image: -webkit-linear-gradient(bottom, #e8e8e3 0%, #f4f4f1 100%);
+      box-shadow:0px 1px 1px 1px #c6c6c6;
+    }
+
+nav li {
+  display:block;
+  padding: 7px 8px;
+  float: left;
+
+  }
+
+nav li:hover{
+  display: block;
+  padding: 7px 8px 7px 8px;
+  background: #49494b;
+  transition: background 0.5s ease-in-out;
+  }
+
+
+.home {
+  font-family: garamond mt;
+  display: block;
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 2px 2px #bb8777;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #bd8c7d;
+  background-image: -webkit-linear-gradient(bottom, #bd8c7d 0%, #c39688 100%);
+  }
+
+.home:hover {
+  color: whitesmoke;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #bd8c7d;
+  background-image: -webkit-linear-gradient(bottom, #bd8c7d 0%, #c39688 100%);
+}
+
+  .house {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    float: right;
+    text-shadow: 2px 2px #bb8777;
+    padding: 14px 16px;
+    border:
+    font-weight: bold;
+    background-color: #bd8c7d;
+  background-image: -webkit-linear-gradient(bottom, #bd8c7d 0%, #c39688 100%);
+  }
+
+  .house:hover {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #bd8c7d;
+  background-image: -webkit-linear-gradient(bottom, #bd8c7d 0%, #c39688 100%);
+  }
+
+nav li a {
+    display: block;
+    color: #49494b;
+    padding:4px 16px;
+    text-decoration: none;
+    border: double #49494b 3px;
+    border-left: hidden;
+    border-right: hidden;
+  }
+
+nav li a:hover {
+    display: block;
+    color: white;
+    text-decoration: none;
+    border: double white 3px;
+    border-left: hidden;
+    border-right: hidden;
+  }
+
+#space {
+  background-color: #efefef;
+  margin:4px 0px 0px 0px;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  height: 2em;
+
+}
+
+
+h1 {
+font-family: "Old Goudy Style";
+  Border: double #49494b 3px;
+  border-right: hidden;
+  border-left: hidden;
+  width: 80%;
+  padding:10px;
+  text-align: center;
+  font-size: 2.7em;
+  color: #49494b;
+  margin: 15px auto;
+
+}
+
+figure {
+  text-align: center;
+  background-color: #efefef;
+  padding:20px 5;
+  margin: 0 auto;
+}
+
+img {
+  height: 95%;
+  width: 95%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: lightgrey;
+
+}
+figcaption {
+  text-align: right;
+  font-size: 70%;
+
+}
+
+#summary{
+  font-family: serif;
+  margin: 10px 50px;
+}
+section {
+  margin: 5px 20px;
+
+
+}
+p {
+text-align: justify;
+  padding: 0.1px;
+
+}
+
+h2 {
+font-family: "Goudy Old Style";
+width:50px;
+color: 	#49494b;
+padding: 4px;
+  margin: 20px;
+display: inline;
+  border: double #49494b 3px;
+  border-left: hidden;
+  border-right:hidden;
+}
+
+.italics{
+  font-style:italic;
+}
+
+
+#info{
+  border: 2px gray;
+  border-style:hidden;
+  border-width: thin;
+}
+
+#Ingredientsinfo,
+#Directionsinfo{
+  font-family: garamond;
+ border: gray thick solid;
+  border-top:hidden;
+  border-bottom: hidden;
+  border-right:hidden;
+  background-color:gainsboro;
+   border-image: linear-gradient(to bottom, White 0%,#bd8c7d 0%,#bd8c7d 100%,white 100%);
+   border-image-slice: 2;
+  margin: 5px 30px;
+  padding: 0px;
+}
+
+#copyright {font-size: 15px;
+  margin: 1em;
+
+}
+
+.back-to-top{
+  margin: 1em;
+  padding-bottom: 1em;
+  color: red;
+  clear:both;
+  font-size: 60%;
+}
+
+/* ---- layout for wider width screens ---*/
+@media (min-width:900px) {
+
+  #Ingredients {
+    float: left;
+    width: 50%;
+    margin: 20px -20px 20px 20px;
+
+  }
+
+    #info {
+      float: right;
+      Width: 43%;
+      padding: 5px;
+
+  }
+    #Directions{
+    clear:both;
+}
+}
