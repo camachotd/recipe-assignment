@@ -175,7 +175,6 @@ footer {
 }
 
  p {
-  text-align: justify;
   padding: 1px;
 }
 
@@ -192,14 +191,13 @@ h2 {
 }
 
 #directions,
-#ingredients
-{margin: 0px 0px 0px 20px;
+#ingredients,
+#info{
+  margin: 0px 0px 0px 20px;
 }
 
-#info{
-  border: 2px gray;
-  border-style:hidden;
-  border-width: thin;
+
+
 }
 
 .italics {
@@ -243,12 +241,11 @@ strong {
 }
 
 /* ---- layout for wider width screens ---*/
-@media (min-width:1200px) {
+@media (min-width:500px) {
 
   #info{
-    border: 2px gray;
-    padding-top: 40px;
-    border-style:hidden;
-    border-width: thin;
+    border: 2px gray hidden;
+    margin-top: 40px;
+    margin-left: 0px;
   }
 }
