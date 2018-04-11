@@ -131,7 +131,10 @@ figcaption {
   text-transform: uppercase;
   text-align: left;
   font-size: 70%;
+}
 
+.photo-credit {
+  float: right;
 }
 
 h1 {
@@ -209,16 +212,15 @@ strong {
 #ingredientsinfo,
 #directionsinfo{
   font-family: garamond, serif;
-  border: gray thick solid;
-  border-top:hidden;
+  border-left: #D98880 solid 4px;
   border-bottom: hidden;
   border-right:hidden;
+  border-top:hidden;
   border-radius: 0px 5px 5px 0px;
   background: gainsboro;
-  border-image: linear-gradient(to bottom, White 0%,#D98880 0%,#D98880 100%,white 100%);
   border-image-slice: 2;
   margin: 15px 30px;
-  padding: 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 .back-to-top a{
