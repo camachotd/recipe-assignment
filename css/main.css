@@ -48,16 +48,16 @@ nav li:hover{
 
   nav li img {
     display: block;
-    margin: 11px; 2px;
+    margin: 11px;
     width: 20px;
     border: hidden;
     color: #424242;
   }
 
-
   nav li img:hover {
-      width: 40px;
       display: block;
+      margin: 5px 1px;
+      width: 40px;
       border: double black 3px;
       padding: 6px 10px;
       margin: 5px 1px;
@@ -90,7 +90,6 @@ nav li:hover{
     text-align: center;
     float: right;
     padding: 14px;
-    border:
     font-weight: bold;
     background-color: #D98880;
   }
@@ -169,7 +168,7 @@ font-family: "Old Goudy Style", serif;
 footer {
   font-family: 'calibri',sans-serif;
   text-align: right;
-  font-style: 80%;
+  font-size: 80%;
   margin-top: 10px;
   text-transform: uppercase;
 }
@@ -196,9 +195,6 @@ h2 {
   margin: 0px 0px 0px 20px;
 }
 
-
-
-}
 
 .italics {
   font-style: italic;
