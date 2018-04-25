@@ -12,6 +12,7 @@ font-family: "calibri", sans-serif;
   width: 90%;
   max-width: 60em;
   margin: 0 auto;
+  scroll-behavior:smooth;
 }
 
 main {
