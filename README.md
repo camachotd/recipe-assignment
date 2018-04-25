@@ -1,4 +1,4 @@
-<h1>Recipe Assignmentr</h1>
+<h1>Recipe Assignment</h1>
 
 <h2>Red Cheese Fondue</h2>
 
